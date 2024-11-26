@@ -23,21 +23,29 @@ git clone https://github.com/RichardSimmons/receipt-processor-challenge.git
 2. Navigate to the Project Directory
 ```
 cd receipt-processor-challenge
-Open terminal and install requirements "pip install requirements.txt"
 ```
-4. Start the Application
+Open terminal and install requirements
 ```
-Open a terminal in the project directory and run:
-docker compose up --build
-This command builds the Docker image and starts the FastAPI application. You can access the API at http://localhost:8000.
+pip install requirements.txt
 ```
 
+4. Start the Application
+
+Open a terminal in the project directory and run:
+```
+docker compose up --build
+```
+This command builds the Docker image and starts the FastAPI application. You can access the API at http://localhost:8000.
+
+
 4. Run Tests
-```
+
 Open a new terminal and run:
-pytest tests/main_test.py
-This will execute all the tests defined in the tests folder.
 ```
+pytest tests/main_test.py
+```
+This will execute all the tests defined in the tests folder.
+
 Manual Testing
 Submit a Receipt
 Use the following curl command to submit a receipt for processing:
