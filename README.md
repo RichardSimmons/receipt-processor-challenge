@@ -17,21 +17,19 @@ The Receipt Processor is a simple web service that processes receipts and calcul
 Follow these steps to set up and use the Receipt Processor Challenge application:
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/RichardSimmons/receipt-processor-challenge.git
+
 2. Navigate to the Project Directory
-
 cd receipt-processor-challenge
-3. Start the Application
-Open a terminal in the project directory and run:
+Open terminal and install requirements "pip install requirements.txt"
 
+4. Start the Application
+Open a terminal in the project directory and run:
 docker compose up --build
 This command builds the Docker image and starts the FastAPI application. You can access the API at http://localhost:8000.
 
 4. Run Tests
 Open a new terminal and run:
-
 pytest tests/main_test.py
 This will execute all the tests defined in the tests folder.
 
