@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Receipt Processor is a simple web service that processes receipts and calculates points based on specific rules. It utilizes FastAPI for building the API and Docker for containerization, allowing for easy deployment and scalability.
+The Receipt Processor is a simple web service that processes receipts and calculates points based on specific rules. It utilizes FastAPI for building the API and Docker for containerization.
 
 ### Key Features
 - **User Authentication**: Secure endpoints using OAuth2 password flow.
