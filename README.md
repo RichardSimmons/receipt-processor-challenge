@@ -46,11 +46,12 @@ pytest tests/main_test.py
 ```
 This will execute all the tests defined in the tests folder.
 
+
 Manual Testing
 Submit a Receipt
 Use the following curl command to submit a receipt for processing:
 
-
+```
 curl -X POST "http://localhost:8000/receipts/process" \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer <your_token_here>" \
@@ -76,10 +77,11 @@ Expected Response:
     "time_points": 0
   }
 }
+```
 Retrieve Points for a Receipt
 Replace {id} with the receipt ID returned from the previous step and run:
 
-
+```
 curl -X GET "http://localhost:8000/receipts/{id}/points" \
      -H "Authorization: Bearer <your_token_here>"
 Example Response:
@@ -106,6 +108,7 @@ Expected Response:
   "access_token": "testuser",
   "token_type": "bearer"
 }
+```
 Error Handling
 The API returns appropriate HTTP status codes for different scenarios:
 200 OK: Successful requests.
