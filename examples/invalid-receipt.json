@@ -1,0 +1,16 @@
+{
+    "retailer": "123!@#$%",  
+    "purchaseDate": "not-a-date", 
+    "purchaseTime": "25:61", 
+    "items": [
+      {
+        "shortDescription": "Item A",  
+        "price": "10.00" 
+      },
+      {
+        "shortDescription": "Item B",
+        "price": "not-a-price"  
+      }
+    ],
+    "total": "12.3" 
+  }
